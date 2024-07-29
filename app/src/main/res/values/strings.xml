@@ -2,4 +2,6 @@
     <string name="app_name">HealthiCore</string>
     <string name="menu_item_statistics">Ana Sayfa</string>
     <string name="menu_item_account">Hesabım</string>
+    <string name="fragment_registration_til_name_hint">ad</string>
+    <string name="fragment_registration_til_surname_hint">soyad</string>
 </resources>
