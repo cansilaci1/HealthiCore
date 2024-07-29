@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HealthiCore</string>
+    <string name="menu_item_statistics">Ana Sayfa</string>
+    <string name="menu_item_account">Hesabım</string>
+</resources>
