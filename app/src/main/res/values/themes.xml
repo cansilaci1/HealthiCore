@@ -1,9 +1,11 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.HealthiCore" parent="Theme.Material3.DynamicColors.Light.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+<!-- res/values/styles.xml -->
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@drawable/gradient_background</item>
+        <!-- Eğer tüm uygulama için gradient arka plan kullanmak istemiyorsanız bu satırı eklemeyin -->
     </style>
-
-    <style name="Theme.HealthiCore" parent="Base.Theme.HealthiCore" />
 </resources>

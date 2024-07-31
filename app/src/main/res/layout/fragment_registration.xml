@@ -3,20 +3,86 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".ui.fragment.RegistrationFragment"
     android:background="@drawable/gradient_background">
 
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fragment_registration_tv_welcome"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/banner"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="128dp"/>
+
+    <TextView
+        android:id="@+id/tvInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fragment_registration_tv_info"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"/>
+
+
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/tilName"
+        android:id="@+id/tilUsername"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="8dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/fragment_registration_til_name_hint">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/tietName"
+            android:id="@+id/tietUsername"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="text"
+            android:inputType="textCapCharacters"
             android:drawableStart="@drawable/icon_username" />
+
     </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="8dp"
+        android:hint="@string/fragment_registration_til_weight_hint">
+        
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tietWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:drawableStart="@drawable/icon_age"/>
+            
+    </com.google.android.material.textfield.TextInputLayout>
+    
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="8dp"
+        android:hint="@string/fragment_registration_til_height_hint">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tietHeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:drawableStart="@drawable/icon_measure"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient_button_background"/>
+
 </LinearLayout>

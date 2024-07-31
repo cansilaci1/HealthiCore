@@ -2,6 +2,9 @@
     <string name="app_name">HealthiCore</string>
     <string name="menu_item_statistics">Ana Sayfa</string>
     <string name="menu_item_account">Hesabım</string>
-    <string name="fragment_registration_til_name_hint">ad</string>
-    <string name="fragment_registration_til_surname_hint">soyad</string>
+    <string name="fragment_registration_til_name_hint">adınız</string>
+    <string name="fragment_registration_tv_welcome">HOŞGELDİNİZ</string>
+    <string name="fragment_registration_tv_info">Vücut bilgilerinizi giriniz.</string>
+    <string name="fragment_registration_til_weight_hint">kilonuz</string>
+    <string name="fragment_registration_til_height_hint">boyunuz</string>
 </resources>
